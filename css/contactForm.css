@@ -12,6 +12,7 @@
 
 .form{
     font-family: 'Cormorant';
+    font-size: 25px;
 }
 
 .option {
@@ -24,5 +25,22 @@
 
 .option1,
 .option3 {
-    margin-right: 100px;
+    margin-right: 40px;
+}
+
+.option1,
+.option2 {
+    margin-top: 80px;
+}
+
+.option3,
+.option4 {
+    margin-top: 50px;
+}
+
+.input {
+    height: 40px;
+    width: 400px;
+    border: none;
+    outline: none;
 }
