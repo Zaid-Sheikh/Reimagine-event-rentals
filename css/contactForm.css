@@ -1,3 +1,5 @@
+@import url('../assets/fonts/Cormorant/Cormorant-Medium.ttf');
+
 .contactForm {
     background: #F0DCCC;
     width: 100%;
@@ -8,10 +10,19 @@
     justify-content: center;
 }
 
+.form{
+    font-family: 'Cormorant';
+}
+
 .option {
     display: inline;
 }
 
 .row {
     display: flex;
+}
+
+.option1,
+.option3 {
+    margin-right: 100px;
 }
