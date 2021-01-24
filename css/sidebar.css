@@ -8,7 +8,7 @@
   }
   
   nav {
-    height: 10vh;
+    height: 185px;
     background: #F0DCCC;
   }
   
@@ -25,18 +25,19 @@
   .nav-links li a {
     color: black;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   @media screen and (max-width: 768px) {
     .line {
       width: 30px;
       height: 3px;
-      background: white;
+      background: black;
       margin: 5px;
     }
     nav {
       position: relative;
+      height: 100px;
     }
   
     .hamburger {
@@ -58,6 +59,11 @@
       -webkit-clip-path: circle(100px at 90% -10%);
       transition: all 1s ease-out;
       pointer-events: none;
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      align-items: center;
+      margin: auto;
     }
     .nav-links.open {
       clip-path: circle(1000px at 90% -10%);
@@ -78,6 +84,18 @@
     }
     .nav-links li:nth-child(3) {
       transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4) {
+      transition: all 0.5s ease 0.8s;
+    }
+    .nav-links li:nth-child(5) {
+      transition: all 0.5s ease 1s;
+    }
+    .nav-links li:nth-child(6) {
+      transition: all 0.5s ease 1.2s;
+    }
+    .nav-links li:nth-child(7) {
+      transition: all 0.5s ease 1.4s;
     }
     li.fade {
       opacity: 1;
