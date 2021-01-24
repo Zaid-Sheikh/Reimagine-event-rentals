@@ -4,6 +4,8 @@
     height: 600px;
     margin: 0;
     padding: 0;
+    display: grid;
+    justify-content: center;
 }
 
 .option {
