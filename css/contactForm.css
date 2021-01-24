@@ -53,3 +53,8 @@
 .text {
     margin-top: 30px;
 }
+
+.name {
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
