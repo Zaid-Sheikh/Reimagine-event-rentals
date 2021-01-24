@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/contactForm.css">
     <title>Home</title>
 </head>
 <body>
@@ -24,8 +25,24 @@
         </ul>
     </nav>
     <img src="./assets/img/Main Image/main.jpg" width="100%" height="100%">
-    <section id="contact">
 
+    <section id="contact" class="contactForm">
+        <div class="input row1">
+            <p>NAME</p>
+            <input type="text" id="name">
+            <p>PHONE</p>
+            <input type="tel" id="number">
+        </div>
+        <div class="input row2">
+            <p>E-MAIL</p>
+            <input type="email" id="email">
+            <p>EVENT DATE</p>
+            <input type="datetime-local" id="date">
+        </div>
+        <div class="input text row3">
+            <p>TELL US ABOUT YOUR EVENT</p>
+            <textarea id="" cols="30" rows="10"></textarea>
+        </div>
     </section>
     <script src="js/navbar.js"></script>
 </body>
