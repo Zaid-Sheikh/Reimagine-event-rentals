@@ -5,3 +5,11 @@
     margin: 0;
     padding: 0;
 }
+
+.option {
+    display: inline;
+}
+
+.row {
+    display: flex;
+}
