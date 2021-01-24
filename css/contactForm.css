@@ -30,7 +30,7 @@
 
 .option1,
 .option2 {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .option3,
@@ -78,4 +78,10 @@
 .btn-submit:hover {
     cursor: pointer;
     background: #2c73a7;
+}
+
+.headText {
+    margin-bottom: 0;
+    margin-top: 40px;
+    font-size: 30px;
 }
