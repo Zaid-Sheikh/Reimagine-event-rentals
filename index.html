@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="cdn/jquery.min.js"></script>
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/contactForm.css">
     <title>Home</title>
@@ -28,45 +29,47 @@
     <img src="./assets/img/Main Image/main.jpg" width="100%" height="100%">
 
     <section id="contact" class="contactForm">
-        <form class="form">
+        <form class="form" id="form" method="POST" action="https://formspree.io/f/mvovldjd">
             <center>
                 <p class="headText">LET'S BEGIN PLANNING YOUR EVENT</p>
             </center>
             <div class="row1 row">
                 <div class="option option1">
                     <p class="name name1">NAME</p>
-                    <input type="text" id="name" class="input writeText rowInput">
+                    <input type="text" id="name" class="input writeText rowInput" name="Name" required>
                 </div>
                 <div class="option option2">
                     <p class="name name2">PHONE</p>
-                    <input type="tel" id="number" class="input writeText rowInput">
+                    <input type="tel" id="number" class="input writeText rowInput" name="Phone Number" required>
                 </div>
             </div>
             <div class="row2 row">
                 <div class="option option3">
                     <p class="name name3">E-MAIL</p>
-                    <input type="email" id="email" class="input writeText rowInput">
+                    <input type="email" id="email" class="input writeText rowInput" name="Email" required>
                 </div>
                 <div class="option option4">
                     <p class="name name4">EVENT DATE</p>
-                    <input type="date" id="date" class="input writeText rowInput">
+                    <input type="date" id="date" class="input writeText rowInput" name="Event Date" required>
                 </div>
             </div>
             <center class="pcHide">
                 <div class="input text row3">
                     <p class="name textareaText">TELL US ABOUT YOUR EVENT</p>
-                    <textarea cols="117" rows="20" class="message writeText" id="message1"></textarea>
+                    <textarea cols="117" rows="20" class="message writeText" id="message1" name="Message"></textarea>
                 </div>
             </center>
             <div class="input text row3 phoneHide">
                 <p class="name textareaText">TELL US ABOUT YOUR EVENT</p>
-                <textarea cols="117" rows="20" class="message writeText" id="message2"></textarea>
+                <textarea cols="117" rows="20" class="message writeText" id="message2" name="message"></textarea>
             </div>
             <center>
                 <div class="submitContainer">
-                    <button class="btn-submit">SUBMIT</button>
+                    <button class="btn-submit" type="submit">SUBMIT</button>
                 </div>
             </center>
+            
+            <center id="handler"></center>
         </form>
     </section>
     <script src="js/navbar.js"></script>
