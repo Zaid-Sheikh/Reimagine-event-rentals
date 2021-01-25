@@ -106,7 +106,10 @@
         margin-left: 20px;
     }
 
-    .writeText {
-        margin-left: 10px;
+    .writeText,
+    .textareaText,
+    .headText {
+        display: grid;
+        justify-content: center;
     }
 }
