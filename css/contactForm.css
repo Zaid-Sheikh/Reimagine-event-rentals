@@ -13,6 +13,7 @@
 .form{
     font-family: 'Cormorant';
     font-size: 25px;
+    width: 100%;
 }
 
 .option {
@@ -89,6 +90,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .contactForm {
+        height: 1000px;
+    }
+
     .row {
         display: flex;
         flex-direction: column;
@@ -111,5 +116,16 @@
     .name {
         display: grid;
         justify-content: center;
+    }
+
+    .message {
+        margin-left: 50px;
+        width: 25em;
+        height: 15em;
+    }
+
+    .rowInput {
+        width: 350px;
+        margin-left: 35px;
     }
 }
