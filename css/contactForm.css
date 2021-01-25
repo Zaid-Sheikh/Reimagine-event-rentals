@@ -107,7 +107,8 @@
     }
 
     .headText {
-        margin-left: 20px;
+        margin: 0;
+        margin-top: 40px;
     }
 
     .writeText,
@@ -127,10 +128,21 @@
 
     .rowInput {
         width: 350px;
+        margin-right: 0;
     }
 
     .name1,
     .name3 {
         margin-left: 33.8px;
+    }
+
+    .option1,
+    .option3 {
+        margin-right: 0;
+    }
+
+    .option {
+        display: grid;
+        justify-content: center;
     }
 }
