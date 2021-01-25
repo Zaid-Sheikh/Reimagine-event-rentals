@@ -101,14 +101,14 @@
         width: 100%;
     }
 
-    .headText,
-    .name {
+    .headText {
         margin-left: 20px;
     }
 
     .writeText,
     .textareaText,
-    .headText {
+    .headText,
+    .name {
         display: grid;
         justify-content: center;
     }
