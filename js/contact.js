@@ -1,13 +1,14 @@
 window.addEventListener("DOMContentLoaded", function() {
-        
+
     var form = document.getElementById("form");
 
     function success() {
       form.reset();
+      $(".handler").append('<div> <code>Submittion was sent.</code> </div>')
     }
 
     function error() {
-
+        $(".handler").append('<div> <code>There was an error. Please try again later</code> </div>')
     }
 
     form.addEventListener("submit", function(ev) {
