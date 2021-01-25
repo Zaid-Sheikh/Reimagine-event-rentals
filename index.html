@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/contactForm.css">
     <title>Home</title>
@@ -27,7 +28,7 @@
     <img src="./assets/img/Main Image/main.jpg" width="100%" height="100%">
 
     <section id="contact" class="contactForm">
-        <form class="form">
+        <form class="form" method="POST" action="">
             <center>
                 <p class="headText">LET'S BEGIN PLANNING YOUR EVENT</p>
             </center>
@@ -54,12 +55,12 @@
             <center class="pcHide">
                 <div class="input text row3">
                     <p class="name textareaText">TELL US ABOUT YOUR EVENT</p>
-                    <textarea cols="117" rows="20" class="message writeText" id="message"></textarea>
+                    <textarea cols="117" rows="20" class="message writeText" id="message1"></textarea>
                 </div>
             </center>
             <div class="input text row3 phoneHide">
                 <p class="name textareaText">TELL US ABOUT YOUR EVENT</p>
-                <textarea cols="117" rows="20" class="message writeText" id="message"></textarea>
+                <textarea cols="117" rows="20" class="message writeText" id="message2"></textarea>
             </div>
             <center>
                 <div class="submitContainer">
@@ -69,5 +70,6 @@
         </form>
     </section>
     <script src="js/navbar.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
