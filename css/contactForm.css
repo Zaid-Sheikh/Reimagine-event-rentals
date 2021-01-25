@@ -50,6 +50,8 @@
     border: none;
     outline: none;
     resize: none;
+    display: grid;
+    justify-content: center;
 }
 
 .text {
@@ -123,7 +125,6 @@
     .message {
         width: 25em;
         height: 15em;
-        margin-right: 0;
     }
 
     .rowInput {
@@ -144,13 +145,6 @@
     }
 
     .option {
-        display: grid;
-        justify-content: center;
-    }
-
-    .text {
-        margin-right: 0;
-        margin-left: 0;
         display: grid;
         justify-content: center;
     }
