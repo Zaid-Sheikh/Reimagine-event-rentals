@@ -3,7 +3,7 @@
 .contactForm {
     background: #F0DCCC;
     width: 100%;
-    height: 800px;
+    height: 1000px;
     margin: 0;
     padding: 0;
     display: grid;
@@ -14,6 +14,10 @@
     font-family: 'Cormorant';
     font-size: 25px;
     width: 100%;
+}
+
+.pcHide {
+    visibility: hidden;
 }
 
 .option {
@@ -91,9 +95,21 @@
     font-size: 30px;
 }
 
-@media screen and (max-width: 768px) {
+.phoneHide {
+    visibility: visible;
+}
+
+@media screen and (max-width: 812px) {
     .contactForm {
         height: 1000px;
+    }
+
+    .phoneHide {
+        visibility: hidden;
+    }
+
+    .pcHide {
+        visibility: visible;
     }
 
     .row {
@@ -123,12 +139,14 @@
     }
 
     .message {
-        width: 25em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 350px;
         height: 15em;
     }
 
     .rowInput {
-        width: 350px;
+        width: 300px;
         margin-right: 0;
     }
 
@@ -147,5 +165,32 @@
     .option {
         display: grid;
         justify-content: center;
+    }
+
+    .message {
+        margin: 0;
+    }
+
+    .text {
+        margin-left: 0;
+        margin-right: 0;
+        display: grid;
+        justify-content: center;
+    }
+
+    .submitContainer {
+        margin-top: 160px;
+    }
+
+    .btn-submit {
+        border: none;
+        outline: none;
+        background: #0C5285;
+        color: white;
+        width: 80%;
+        height: 48px;
+        border-radius: 6px;
+        font-size: 22px;
+        transition: 0.2s;
     }
 }
