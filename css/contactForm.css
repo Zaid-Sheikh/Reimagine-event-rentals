@@ -113,7 +113,8 @@
     .writeText,
     .textareaText,
     .headText,
-    .name {
+    .name,
+    .rowInput {
         display: grid;
         justify-content: center;
     }
@@ -126,7 +127,6 @@
 
     .rowInput {
         width: 350px;
-        margin-left: 35px;
     }
 
     .name1,
