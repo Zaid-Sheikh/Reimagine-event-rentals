@@ -128,4 +128,9 @@
         width: 350px;
         margin-left: 35px;
     }
+
+    .name1,
+    .name3 {
+        margin-left: 33.8px;
+    }
 }
