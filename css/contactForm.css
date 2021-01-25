@@ -121,9 +121,9 @@
     }
 
     .message {
-        margin-left: 50px;
         width: 25em;
         height: 15em;
+        margin-right: 0;
     }
 
     .rowInput {
@@ -133,7 +133,9 @@
 
     .name1,
     .name3 {
-        margin-left: 33.8px;
+        margin-right: 0;
+        display: grid;
+        justify-content: center;
     }
 
     .option1,
@@ -142,6 +144,13 @@
     }
 
     .option {
+        display: grid;
+        justify-content: center;
+    }
+
+    .text {
+        margin-right: 0;
+        margin-left: 0;
         display: grid;
         justify-content: center;
     }
