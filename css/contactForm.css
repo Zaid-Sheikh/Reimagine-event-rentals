@@ -99,10 +99,6 @@
     visibility: visible;
 }
 
-.contactFooterText {
-    margin-top: 40px;
-}
-
 @media screen and (max-width: 812px) {
     .contactForm {
         height: 1100px;
@@ -196,10 +192,5 @@
         border-radius: 6px;
         font-size: 22px;
         transition: 0.2s;
-    }
-
-    .contactFooterText {
-        display: grid;
-        justify-content: center;
     }
 }
